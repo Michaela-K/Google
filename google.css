@@ -6,26 +6,26 @@
 
 body{
 	font-family: arial,sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 a{
     color: #262626;
-    text-decoration: none;           /*Takes off the underline on the link */
+    text-decoration: none;           
 }
 ul{
 	list-style: none;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 /*NAV*/
 .container1{                           
-    width: 100%;                       /*So it doesnt fill entire container*/
-    max-width: 1450px;                /*Will only fill this amt of space*/
+    width: 100%;               
     margin: auto;
 }
 .nav1 ul{
 	display: flex;
-	/*background-color: lightgrey;*/
 	align-items: center;
 	justify-content: space-between;
 }
@@ -36,13 +36,12 @@ ul{
 
 .nav2 ul{
 	display: flex;
-	/*background-color: lightyellow;*/
 	justify-content: flex-end;
 }
 .nav2 li{
 	margin: 20px 10px;
 }
-hr{ /* style for hr*/
+hr{ 
 	border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -50,8 +49,7 @@ hr{ /* style for hr*/
 }
 
 .container2{                           
-    width: 100%;                       /*So it doesnt fill entire container*/
-    max-width: 1450px;                /*Will only fill this amt of space*/
+    width: 100%;                      
     margin: auto;
 }
 
@@ -60,8 +58,7 @@ hr{ /* style for hr*/
 
 .middle-section{
 	position: relative;
-	width: 100%;                       /*So it doesnt fill entire container*/
-	max-width: 1450px; 
+	width: 100%;    
 	margin: auto;
 }
 
@@ -99,7 +96,6 @@ hr{ /* style for hr*/
 	top: 15px;
 	right: 20px;
 	color: blue;
-	/*background: url("chrome://new-tab-page/icons/googlemic_clr_24px.svg");*/
 }
 
 #input[type=search]{
@@ -107,7 +103,7 @@ hr{ /* style for hr*/
 	padding: 13px 45px;
 	margin: 0;
 	display: inline-block;
-	border: 1px solid transparent; /*#ccc*/;
+	border: 1px solid transparent;
 	border-radius: 20px;
 	box-sizing: border-box;
 	outline: none;
